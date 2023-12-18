@@ -2,12 +2,23 @@ div {
     width: 20%;
     float: left;
     margin-left: 20%;
-    margin-top: 18%;
+    margin-top: 15%;
 }
 
 h1 {
     color: blue;
     font-size: 110px;
+    margin: 0;
+    font-weight: normal;
+    font-family: 'Rubik Broken Fax', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Rubik Bubbles', Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: cursive; */
+    /* font-family: monospace; */
 }
 
 a {
