@@ -1,11 +1,11 @@
-body > div {
+.left-column {
     width: 20%;
     float: left;
     margin-left: 20%;
-    margin-top: 8%;
+    margin-top: 12%;
 }
 
-h1 {
+.main-title {
     color: blue;
     font-size: 110px;
     margin: 0;
@@ -13,29 +13,26 @@ h1 {
     font-family: 'Rubik Broken Fax', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div > div {
+.main-description {
+    margin-bottom: 20px;
     font-size: 24px;
     text-transform: uppercase;
     font-family: 'Rubik Bubbles', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.geltona {
-    color: yellow;
-}
-.zalia {
-    color: green;
-}
-.raudona {
-    color: red;
-}
-
-a {
-    font-weight: bold;
-    font-style: italic;
+.btn {
+    display: inline-block;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
     font-size: 20px;
+    text-decoration: none;
+    border: 3px solid blue;
+    border-radius: 30px;
 }
 
-img {
+.right-column {
     width: 35%;
     float: left;
     margin-left: 5%;
