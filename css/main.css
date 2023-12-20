@@ -1,8 +1,8 @@
-div {
+body > div {
     width: 20%;
     float: left;
     margin-left: 20%;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 h1 {
@@ -13,12 +13,20 @@ h1 {
     font-family: 'Rubik Broken Fax', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    font-size: 30px;
+div > div {
+    font-size: 24px;
     text-transform: uppercase;
     font-family: 'Rubik Bubbles', Verdana, Geneva, Tahoma, sans-serif;
-    /* font-family: cursive; */
-    /* font-family: monospace; */
+}
+
+.geltona {
+    color: yellow;
+}
+.zalia {
+    color: green;
+}
+.raudona {
+    color: red;
 }
 
 a {
